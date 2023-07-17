@@ -35,7 +35,7 @@
   <h1
     class="pt-4 pb-8 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
   >
-    I'm Shi Heb Din
+    I'm Shiheb Din
   </h1>
 
   <div class="flex flex-col grow">
@@ -44,13 +44,14 @@
       <img
         src={logo}
         alt="d3j1x logo"
-        class="my-2 text-white dark:text-white w-80 hover:shadow-inner  transform hover:scale-125 hover:bg-opacity-50 transition ease-linear duration-500"
+        class="my-2 text-white dark:text-white w-80  transform hover:scale-125  transition ease-in-out duration-500"
 
       />
     </a>
     </div>
+  
+    <!-- hover:bg-opacity-100 hover:bg-opacity-100 -->
     
-
 
   <div
     class="flex flex-col items-center w-full max-w-xl p-12 mx-auto rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg"
@@ -59,7 +60,7 @@
       Cybersecurity Specialist !
     </div>
     <button
-      class="mb-6 font-bold underline opacity-70 hover:opacity-100"
+      class=" sm:text-lg text-lime-500 mb-6 font-bold underline opacity-70 hover:opacity-100"
     >
       Security, Privacy & Trust
     </button>

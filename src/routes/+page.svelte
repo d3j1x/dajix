@@ -107,6 +107,12 @@
 </main>
 
 <section>
+  <button
+      on:click={refreshPage}
+      class="mb-6 font-bold underline opacity-70 hover:opacity-100"
+    >
+      Refresh Page
+  </button>
   <div class="text-5xl font-bold">
     {data?.pageVisits}
   </div>

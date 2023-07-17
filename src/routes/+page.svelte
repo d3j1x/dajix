@@ -1,8 +1,18 @@
 <script>
-	import logo from '$lib/img/logo.jpeg';
+// @ts-nocheck
+
+
+  export let data
+  function refreshPage() {
+    location.reload()
+  }
+	
+  import logo from '$lib/img/logo.jpeg';
   import ghlogo from '$lib/img/github.svg';
   import vclogo from '$lib/img/vercel.svg';
   import svlogo from '$lib/img/svelte_logo.png';
+
+  
 </script>
 
 <svelte:head>
@@ -97,7 +107,9 @@
 </main>
 
 <section>
-
+  <div class="text-5xl font-bold">
+    {data?.pageVisits}
+  </div>
 </section>
 
 <style>

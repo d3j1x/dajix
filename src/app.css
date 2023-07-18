@@ -8,13 +8,13 @@
     --background-end-rgb: 255, 255, 255;
   }
   
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     :root {
       --foreground-rgb: 255, 255, 255;
       --background-start-rgb: 0, 0, 0;
       --background-end-rgb: 0, 0, 0;
     }
-  }
+  } */
 
   body {
     color: rgb(var(--foreground-rgb));
@@ -25,3 +25,88 @@
       )
       rgb(var(--background-start-rgb));
   }
+
+  .dark body {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+
+  .dark #djx {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .light #djx {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.3);
+
+  }
+
+  .dark #shi {
+    background-image: linear-gradient(to bottom right, #ffffff, #707070, #ffffff);
+
+  }
+
+  .light #shi{
+    background-image: linear-gradient(to bottom right, black, #707070, #ffffff);
+
+  }
+
+  .dark #lst {
+    color: #d1d5db;
+  }
+
+  .light #lst {
+    color: #4a5568;
+  }
+
+  .dark #me:hover{
+    color: white;
+  }
+
+  .light #me:hover{
+    color: black;
+  }
+
+  .dark #sve:hover{
+    color: white;
+    text-decoration: none;
+  }
+
+  .light #sve:hover{
+    color: black;
+    text-decoration: none;
+  }
+
+
+
+  .dark #imgvcl {
+    color: black;
+    filter: invert(1);
+  }
+
+  .dark #imggth {
+    color: black;
+    filter: invert(1);
+  }
+
+  .light  #imgvcl {
+    color: white;
+    
+  }
+
+  .light #imggth {
+    color: black;
+    
+  }
+
+  .dark #card {
+    background-color: rgba(255, 255, 255, 0.1);
+
+  }
+
+  .light #card {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+

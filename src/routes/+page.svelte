@@ -44,7 +44,7 @@
       <img
         src={logo}
         alt="d3j1x logo"
-        class="text-white dark:text-white w-80  transform hover:scale-125  transition ease-in-out duration-300"
+        class="text-white dark:text-white w-80 sm:w-96   transform hover:scale-125  transition ease-in-out duration-300"
         
       />
     </a>

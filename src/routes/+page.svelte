@@ -17,7 +17,7 @@
 </script>
 
 <svelte:head>
-	<title>Shi Heb Din</title>
+	<title>Shiheb Din</title>
 	<meta name="description" content="DajiX" />
 </svelte:head>
 
@@ -28,7 +28,7 @@
 
   <a
     href="https://github.com/d3j1x"
-    class="px-6 py-2 sm:text-lg font-medium text-gray-600 transition-all rounded-full shadow-sm bg-white/30 dark:bg-white/80 ring-1 ring-gray-900/5 dark:text-black hover:shadow-lg active:shadow-sm"
+    class="px-6 py-2 sm:text-lg font-bold text-gray-600 transition-all rounded-full shadow-sm bg-white/30 dark:bg-white/80 ring-1 ring-gray-900/5 dark:text-black hover:shadow-lg active:shadow-sm"
   >
     @d3j1x
   </a>
@@ -44,8 +44,8 @@
       <img
         src={logo}
         alt="d3j1x logo"
-        class="my-2 text-white dark:text-white w-80  transform hover:scale-125  transition ease-in-out duration-500"
-
+        class="text-white dark:text-white w-80  transform hover:scale-125  transition ease-in-out duration-300"
+        
       />
     </a>
     </div>
@@ -60,7 +60,7 @@
       Cybersecurity Specialist !
     </div>
     <button
-      class=" sm:text-lg text-lime-500 mb-6 font-bold underline opacity-70 hover:opacity-100"
+      class=" sm:text-lg text-lime-500 mb-6 font-bold opacity-100 hover:underline"
     >
       Security, Privacy & Trust
     </button>
@@ -123,10 +123,11 @@
 <section>
   <button
       on:click={refreshPage}
-      class="mb-1 font-bold underline opacity-70 hover:opacity-100"
+      class="mb-1 font-bold opacity-70 hover:opacity-100 hover:underline"
     >
       Refresh Page
   </button>
+  <p class="text-sm font-extrabold opacity-100">© 2023 d3j1x. All rights reserved.</p>
 </section>
 
 <style>

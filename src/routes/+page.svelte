@@ -54,7 +54,7 @@ function toggleDarkMode() {
 	<meta name="description" content="DajiX" />
 </svelte:head>
 
-<div class="fixed justify-between top-0 left-0 w-full z-50">
+<div class="fixed m-3 justify-between top-0 left-0 w-full z-50">
 
   {#if isReadyMode}
       
@@ -97,19 +97,19 @@ function toggleDarkMode() {
     @d3j1x
   </a>
   <h1
-    class="pt-4 pb-8 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+    class="py-4 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-5xl font-medium tracking-tight text-transparent sm:text-7xl"
     id="shi"
     >
     I'm Shihab Din
   </h1>
 
-  <div class="flex flex-col grow">
+  <div class="flex items-center flex-col grow">
 
-    <div class="flex justify-center rounded-full overflow-hidden mb-5">
+    <div class="w-64 sm:w-80 flex items-center justify-center rounded-full overflow-hidden mb-5">
       <img
           src={logo}
           alt="d3j1x logo"
-          class="w-80   sm:w-96  transform  hover:scale-125  transition ease-in-out duration-300"
+          class="transform  hover:scale-125  transition ease-in-out duration-1000"
           
         />
     </div>

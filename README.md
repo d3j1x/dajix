@@ -1,5 +1,7 @@
 # Dajix
 
+## Version  1.0.2
+
 ```bash
 Version 1.0.1 Beta
 ```

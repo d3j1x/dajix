@@ -1,7 +1,7 @@
 <script>
 // @ts-nocheck
 
-
+  let isReadyMode = false;
   
 	
   import logo from '$lib/img/logo.jpeg';
@@ -15,9 +15,11 @@
     location.reload()
   }
 
+
   import { onMount } from 'svelte';
 
   export let isDarkMode = false;
+
 
   // Function to toggle dark mode
 function toggleDarkMode() {
@@ -43,6 +45,7 @@ function toggleDarkMode() {
       isDarkMode = true;
       // console.log('mount : dark')
     }
+    isReadyMode = true;
   });
 </script>
 
@@ -52,28 +55,32 @@ function toggleDarkMode() {
 </svelte:head>
 
 <div class="fixed justify-between top-0 left-0 w-full z-50">
-  
-  <button
-  class="flex items-center px-2 mt-2 text-sm font-bold text-white bg-gray-700 rounded-full hover:bg-gray-800"
-  on:click={toggleDarkMode}
-  >
 
-  {#if isDarkMode}
+  {#if isReadyMode}
+      
+    <button
+      class="flex items-center px-2 mt-2 text-sm font-bold text-white bg-gray-700 rounded-full hover:bg-gray-800"
+      on:click={toggleDarkMode}
+    >
+
+      {#if isDarkMode}
+        
+        <p>Light </p> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+        </svg>
+
+      {:else}
+
+        <p>Dark </p>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+        </svg>
+
+      {/if}
+
+    </button>
     
-  <p>Light </p> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
-    </svg>
-
-  {:else}
-
-  <p>Dark </p>
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
-  </svg>
-
-  {/if}
-
-  </button>
+    {/if}
 </div>
 
 
@@ -93,37 +100,47 @@ function toggleDarkMode() {
     class="pt-4 pb-8 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
     id="shi"
     >
-    I'm Shiheb Din
+    I'm Shihab Din
   </h1>
 
   <div class="flex flex-col grow">
-    <div class="rounded-full overflow-hidden mb-5">
+
+    <div class="flex justify-center rounded-full overflow-hidden mb-5">
+      <img
+          src={logo}
+          alt="d3j1x logo"
+          class="w-80   sm:w-96  transform  hover:scale-125  transition ease-in-out duration-300"
+          
+        />
+    </div>
+
+    <!-- <div class="rounded-full overflow-hidden mb-5">
     <a href="https://github.com/d3j1x" class="">
       <img
         src={logo}
         alt="d3j1x logo"
-        class="text-white dark:text-white w-80 sm:w-96   transform hover:scale-125  transition ease-in-out duration-300"
+        class="text-white dark:text-white w-80 sm:w-96  transform  hover:scale-125  transition ease-in-out duration-300"
         
       />
     </a>
-    </div>
+    </div> -->
   
     <!-- hover:bg-opacity-100 hover:bg-opacity-100 -->
     
 
-  <div
-    class="flex flex-col items-center w-full max-w-xl p-12 mx-auto rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg"
-    id="card"
+    <div
+      class="flex flex-col items-center w-full max-w-xl p-12 mx-auto rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg"
+      id="card"
     >
-    <div class="mb-6 text-lg text-center font-bold sm:text-xl">
-      Cybersecurity Specialist !
-    </div>
-    <button
+      <div class="mb-6 text-lg text-center font-bold sm:text-xl">
+      Cyber Security Specialist !
+      </div>
+      <button
       class=" sm:text-lg text-lime-500 mb-6 font-bold opacity-100 hover:underline"
-    >
+      >
       Security, Privacy & Trust
-    </button>
-    <div class="text-5xl font-bold">
+      </button>
+      <div class="text-5xl font-bold">
       {data?.pageVisits} <span class="text-sm">Views</span>
       </div>
     </div>

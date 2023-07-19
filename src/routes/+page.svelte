@@ -39,7 +39,9 @@ function toggleDarkMode() {
       window.matchMedia &&
       window.matchMedia('(prefers-color-scheme: dark)').matches
     ) {
-      toggleDarkMode();
+      // toggleDarkMode();
+      isDarkMode = true;
+      console.log('mount : dark')
     }
   });
 </script>
@@ -130,6 +132,7 @@ function toggleDarkMode() {
       
     </div>
   </div>
+
   <div
     class="w-full max-w-lg mt-6 font-light text-center text-gray-600 dark:text-gray-300"
     id="lst"
@@ -163,7 +166,7 @@ function toggleDarkMode() {
         id="imgvcl"
         src={vclogo}
         alt="Vercel Logo"
-        class="my-2"
+        class="my-2 dark:invert"
         width={100}
         height={24}
       />
@@ -173,8 +176,8 @@ function toggleDarkMode() {
       href="https://github.com/d3j1x/dajix"
       class="flex items-center h-8 mt-auto space-x-2 bottom-20 right-20"
     >
-      <img id="imggth" src={ghlogo} alt="GitHub Logo" class="h-6 " />
-      <p class="font-light">Source</p>
+      <img id="imggth" src={ghlogo} alt="GitHub Logo" class="h-6 dark:invert" />
+      <p>Source</p>
     </a>
   </div>
 </main>

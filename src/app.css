@@ -8,13 +8,16 @@
     --background-end-rgb: 255, 255, 255;
   }
   
-  /* @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: dark) {
     :root {
       --foreground-rgb: 255, 255, 255;
       --background-start-rgb: 0, 0, 0;
       --background-end-rgb: 0, 0, 0;
     }
-  } */
+
+  }
+
+  
 
   body {
     color: rgb(var(--foreground-rgb));
@@ -26,10 +29,18 @@
       rgb(var(--background-start-rgb));
   }
 
+  
+
   .dark body {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+  }
+
+  .light body {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
   }
 
   .dark #djx {
@@ -82,22 +93,19 @@
 
 
   .dark #imgvcl {
-    color: black;
-    filter: invert(1);
-  }
-
-  .dark #imggth {
-    color: black;
-    filter: invert(1);
-  }
-
-  .light  #imgvcl {
-    color: white;
     
   }
 
+  .dark #imggth {
+    
+  }
+
+  .light  #imgvcl {
+    filter: invert(0);
+  }
+
   .light #imggth {
-    color: black;
+    filter: invert(0);
     
   }
 
@@ -110,3 +118,24 @@
     background-color: rgba(255, 255, 255, 0.3);
   }
 
+
+
+
+
+
+
+
+
+
+  /*   @media (prefers-color-scheme: dark) {
+  body {
+    
+    color: rgb(var(--foreground-rgb-d));
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb-d))
+      )
+      rgb(var(--background-start-rgb-d));
+  }
+} */

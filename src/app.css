@@ -93,11 +93,11 @@
 
 
   .dark #imgvcl {
-    
+    filter: invert(1);
   }
 
   .dark #imggth {
-    
+    filter: invert(1);
   }
 
   .light  #imgvcl {

@@ -41,7 +41,7 @@ function toggleDarkMode() {
     ) {
       // toggleDarkMode();
       isDarkMode = true;
-      console.log('mount : dark')
+      // console.log('mount : dark')
     }
   });
 </script>

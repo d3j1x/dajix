@@ -29,21 +29,21 @@
       rgb(var(--background-start-rgb));
   }
 
-  
-
   .dark body {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
 
+  /* 
+
   .light body {
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 214, 219, 220;
     --background-end-rgb: 255, 255, 255;
-  }
+  } */
 
-  .dark #djx {
+  /* .dark #djx {
     
     background-color: rgba(255, 255, 255, 0.8);
   }
@@ -52,9 +52,9 @@
     
     background-color: rgba(255, 255, 255, 0.3);
 
-  }
+  } */
 
-  .dark #shi {
+  /* .dark #shi {
     background-image: linear-gradient(to bottom right, #ffffff, #707070, #ffffff);
 
   }
@@ -62,9 +62,9 @@
   .light #shi{
     background-image: linear-gradient(to bottom right, black, #707070, #ffffff);
 
-  }
+  } */
 
-  .dark #lst {
+  /* .dark #lst {
     color: #d1d5db;
   }
 
@@ -116,7 +116,7 @@
 
   .light #card {
     background-color: rgba(255, 255, 255, 0.3);
-  }
+  } */
 
 
 

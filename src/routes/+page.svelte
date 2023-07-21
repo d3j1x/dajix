@@ -34,7 +34,7 @@
 
   
   <h1
-    class="mt-10 md:mt-20 pt-4 pb-8 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-5xl font-medium tracking-tight text-transparent md:text-7xl"
+    class="mt-12 md:mt-20 pt-4 pb-8 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
     >
     I'm Shihab Din
   </h1>
@@ -45,7 +45,7 @@
       <img
           src={logo}
           alt="d3j1x logo"
-          class="text-white dark:text-white w-64 sm:w-80   transform hover:scale-125  transition ease-in-out duration-300"
+          class="text-white dark:text-white w-60 sm:w-64 md:w-80  transform hover:scale-125  transition ease-in-out duration-300"
           
         />
     </div>

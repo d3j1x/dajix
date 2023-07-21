@@ -15,7 +15,7 @@
 <!-- <div class="text-center text-4xl  font-extrabold sm:text-5xl">P R O J E C T S</div> -->
 <div class="titleClass">S E R V I C E S</div>
 
-<div class="md:hidden text-lg py-5 m-5  font-semibold ">
+<div class="md:hidden text-lg py-5 m-3  font-semibold ">
     <a  class="hover:underline" href="/">Home</a>
     <a  class="hover:underline px-10 md:px-20" href="/projects">Projects</a>
     <a  class="hover:underline" href="/about">About</a>

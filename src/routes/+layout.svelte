@@ -30,7 +30,7 @@
 		  </span>
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
-		<NavUl {hidden} >
+		<NavUl {hidden} class="font-bold" >
 		  <NavLi href="/" active={true}>Home</NavLi>
 		  <NavLi href="/projects" on:click={toggle}>Projects</NavLi>
 		  <NavLi href="/services" on:click={toggle}>Services</NavLi>
@@ -54,7 +54,7 @@
 			  </span>
 			</NavBrand>
 			<NavHamburger on:click={toggle} />
-			<NavUl {hidden} >
+			<NavUl {hidden} class="font-bold" >
 			  <NavLi href="/" active={true}>Home</NavLi>
 			  <NavLi href="/projects">Projects</NavLi>
 			  <NavLi href="/services">Services</NavLi>

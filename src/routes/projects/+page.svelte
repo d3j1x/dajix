@@ -16,29 +16,55 @@ import { Card, Button } from "flowbite-svelte";
 
 
 <!-- <div class="text-center text-4xl  font-extrabold sm:text-5xl">P R O J E C T S</div> -->
+<!-- <div class="titleClass">P R O J E C T S</div> -->
+
+<div class="md:hidden text-lg font-semibold ">
+    <a  class="underline hover:no-underline" href="/">Home</a>
+    <a  class="underline hover:no-underline px-10 md:px-20" href="/services">Services</a>
+    <a  class="underline hover:no-underline" href="/about">About</a>
+</div>
+
 <div class="titleClass">P R O J E C T S</div>
 
-<div class="md:hidden text-lg py-5 m-3  font-semibold ">
-    <a  class="hover:underline" href="/">Home</a>
-    <a  class="hover:underline px-10 md:px-20" href="/services">Services</a>
-    <a  class="hover:underline" href="/about">About</a>
+<hr class="w-11/12 h-1 mb-10 mt-5  bg-black rounded dark:bg-white" />
+
+<div class="grid  lg:grid-cols-2 gap-10">
+
+  <div class="lg:col-span-1">
+    <Card>
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bitcoin Street</h5>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
+        BTC LIVE PRICE $ | Crypto, Bitcoin News | Crypto Converter | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing.
+      </p>
+      <Button class="w-fit">
+        <a class="flex" href="https://bitcoin-street.vercel.app" target="_blank" rel="noreferrer">
+          Go To <p class="mx-2 underline font-bold">BTC-STREET</p> Web App
+        </a>
+        
+      </Button>
+    </Card>
+    
+  </div>
+
+  <div class="lg:col-span-1">
+    <Card>
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMRT MRKT</h5>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
+        Smrt Mrkt is an emerging company.
+Specialized in the field of media services and modern technology.
+      </p>
+      <Button class="w-fit">
+        <a class="flex" href="https://smrkt.vercel.app" target="_blank" rel="noreferrer">
+          Go To <p class="mx-2 underline font-bold">SMRKT</p> Web App
+        </a>
+        
+      </Button>
+    </Card>
+    
+  </div>
+
 </div>
 
-<hr class="w-11/12 h-1 mb-10 md:mt-5  bg-black rounded dark:bg-white" />
-
-
-<div>
-  <Card>
-    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
-      Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-    </p>
-    <Button class="w-fit">
-      Read more <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
-    </Button>
-  </Card>
-  
-</div>
 
 
 

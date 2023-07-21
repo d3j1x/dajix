@@ -37,9 +37,9 @@
 
 
   .mainClass {
-    @apply pt-28 relative flex flex-col items-center justify-center min-h-screen py-10;
+    @apply pt-24  flex flex-col items-center justify-center min-h-screen py-10;
   }
 
   .titleClass {
-    @apply text-center text-4xl  font-extrabold sm:text-5xl;
+    @apply pt-5 text-center text-4xl  font-extrabold sm:text-5xl;
   }

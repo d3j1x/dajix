@@ -35,3 +35,11 @@
     --background-end-rgb: 0, 0, 0;
   }
 
+
+  .mainClass {
+    @apply pt-28 relative flex flex-col items-center justify-center min-h-screen py-10;
+  }
+
+  .titleClass {
+    @apply text-center text-4xl  font-extrabold sm:text-5xl;
+  }

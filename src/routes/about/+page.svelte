@@ -1,9 +1,37 @@
-<div class="text-center pt-44 font-extrabold">A B O U T</div>
-<div class="flex justify-around p-10 m-10  font-bold">
-    <a  href="/about/pricing">Pricing</a>
-    <a  href="/about/contact">Contact</a>
+<script>
+
+</script>
+
+
+<!-- <main
+  class="pt-28 relative flex flex-col items-center justify-center min-h-screen py-10"
+> -->
+<main
+  class="mainClass"
+>
+
+
+
+
+<!-- <div class="text-center text-4xl  font-extrabold sm:text-5xl">P R O J E C T S</div> -->
+<div class="titleClass">A B O U T</div>
+
+<div class="md:hidden text-lg py-5 m-5  font-semibold ">
+    <a  class="hover:underline" href="/">Home</a>
+    <a  class="hover:underline px-10 md:px-20" href="/projects">Projects</a>
+    <a  class="hover:underline" href="/about">Services</a>
+</div>
+
+<hr class="w-11/12 h-1 mb-5 md:mt-5 bg-black rounded dark:bg-white" />
+
+
+<div class="flex  text-xl m-5 font-bold">
+    <a class="hover:underline uppercase mx-10 md:mx-20" href="/about/pricing">Pricing</a>
+    <a class="hover:underline uppercase mx-10 md:mx-20" href="/about/contact">Contact</a>
 
 </div>
+
+
 
 <div class="text-center text-lg justify-around p-30 m-50 ">
 <div>A B O U T</div>
@@ -30,3 +58,5 @@
 <div>A B O U T</div>
 <div>A B O U T</div>
 </div>
+
+</main>

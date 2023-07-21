@@ -34,7 +34,7 @@
 
   
   <h1
-    class="mt-20 pt-4 pb-8 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+    class="mt-10 md:mt-20 pt-4 pb-8 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-5xl font-medium tracking-tight text-transparent md:text-7xl"
     >
     I'm Shihab Din
   </h1>
@@ -133,7 +133,6 @@
     >
       Refresh Page
   </button>
-  <p class="text-sm font-extrabold opacity-100">© 2023 d3j1x. All rights reserved.</p>
 </section>
 
 <style>

@@ -1,6 +1,10 @@
-# Dajix
+# Dajix Version 1.0.5 Release v1.0.4
+
+
 
 ## Developing
+
+
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
@@ -13,9 +17,7 @@ vercel dev
 
 ## Version  1.0.2
 
-```bash
-Version 1.0.1 Beta
-```
+
 
 ## Version  1.0.0
 

@@ -6,7 +6,10 @@
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte'
 	import { DarkMode } from 'flowbite-svelte';
 
+	import { CloseButton } from 'flowbite-svelte'
+
   	let btnClass = 'fixed top-20 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-xl p-2 z-40';
+	
 
 </script>
 
@@ -24,13 +27,12 @@
 		  </span>
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
-		<NavUl {hidden}>
+		<NavUl {hidden} >
 		  <NavLi href="/" active={true}>Home</NavLi>
-		  <NavLi href="/projects">Projects</NavLi>
-		  <NavLi href="/services">Services</NavLi>
-		  <NavLi href="/pricing">Pricing</NavLi>
-		  <NavLi href="/contact">Contact</NavLi>
-		  <NavLi href="/about">About</NavLi>
+		  <NavLi href="/projects" on:click={toggle}>Projects</NavLi>
+		  <NavLi href="/services" on:click={toggle}>Services</NavLi>
+		  <NavLi href="/about" on:click={toggle}>About</NavLi>
+		  <CloseButton class="sm:hidden" on:click={toggle} />
 		</NavUl>
 	  </Navbar>
 

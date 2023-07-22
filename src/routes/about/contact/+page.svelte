@@ -23,18 +23,11 @@
 
 <div class="titleClass">C O N T A C T</div>
 
-<hr class="w-11/12 h-1 mb-10 mt-5 bg-black rounded dark:bg-white" />
+<hr class="w-11/12 h-1 my-5 bg-black rounded dark:bg-white" />
 
 
-<div class="flex text-xl font-bold">
-    <a class="hover:underline uppercase mx-10 md:mx-20" href="/about">About</a>
-    <a class="hover:underline uppercase mx-10 md:mx-20" href="/about/pricing">Pricing</a>
-    
 
-</div>
-
-
-<div class="pt-20">C O N T A C T</div>
+<div class="">C O N T A C T</div>
 <div class="pt-20">C O N T A C T</div>
 <div class="pt-20">C O N T A C T</div>
 <div class="pt-20">C O N T A C T</div>

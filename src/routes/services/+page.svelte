@@ -23,7 +23,7 @@
 
 <div class="titleClass">S E R V I C E S</div>
 
-<hr class="w-11/12 h-1 mb-10 mt-5 bg-black rounded dark:bg-white" />
+<hr class="w-11/12 h-1 my-5 bg-black rounded dark:bg-white" />
 
 <div class="pt-20">S E R V I C E S</div>
 <div class="pt-20">S E R V I C E S</div>

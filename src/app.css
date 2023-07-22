@@ -37,7 +37,7 @@
 
 
   .mainClass {
-    @apply pt-24  flex flex-col items-center justify-center py-10;
+    @apply pt-24  flex flex-col items-center justify-center ;
   }
 
   .titleClass {

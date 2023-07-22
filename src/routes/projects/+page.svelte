@@ -26,9 +26,9 @@ import { Card, Button } from "flowbite-svelte";
 
 <div class="titleClass">P R O J E C T S</div>
 
-<hr class="w-11/12 h-1 mb-10 mt-5  bg-black rounded dark:bg-white" />
+<hr class="w-11/12 h-1 my-5  bg-black rounded dark:bg-white" />
 
-<div class="grid  lg:grid-cols-2 gap-10">
+<div class="grid gap-10 lg:grid-cols-2  lg:gap-20">
 
   <div class="lg:col-span-1">
     <Card>

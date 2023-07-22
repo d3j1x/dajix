@@ -31,7 +31,7 @@
 </main>
 
 
-<div class="flex text-center items-center justify-between mx-20 text-xl mb-5 font-bold">
+<div class="flex text-center justify-between mx-10 md:mx-20 lg:mx-32 text-xl mb-5 font-bold">
   <a  href="/about/pricing"><Badge rounded color="green" class="px-5 text-lg font-bold">Pricing</Badge></a>
   <a  href="/about/contact"><Badge rounded color="purple" class="px-5 text-lg font-bold">Contact</Badge></a>
 </div>

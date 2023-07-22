@@ -31,7 +31,7 @@
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
 		<NavUl {hidden} class="font-bold" >
-		  <NavLi href="/" active={true}>Home</NavLi>
+		  <NavLi href="/" active={true} on:click={toggle}>Home</NavLi>
 		  <NavLi href="/projects" on:click={toggle}>Projects</NavLi>
 		  <NavLi href="/services" on:click={toggle}>Services</NavLi>
 		  <NavLi href="/about" on:click={toggle}>About</NavLi>

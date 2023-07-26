@@ -1,7 +1,8 @@
 <script>
 // @ts-nocheck
 
-  
+
+  import { Card, Button, Rating, Badge } from "flowbite-svelte";
   
 	
   import logo from '$lib/img/logo.jpeg';
@@ -9,6 +10,8 @@
   import vclogo from '$lib/img/vercel.svg';
   import svlogo from '$lib/img/svelte_logo.png';
   import fblogo from '$lib/img/f128.png';
+
+  import btcstreetico from '$lib/img/btcstreetico.jpg'
 
   export let data
   function refreshPage() {
@@ -78,6 +81,34 @@
       
     </div>
   </div>
+
+  <div class="my-5">
+      <div class="my-5">
+        <h1 class="text-center text-7xl font-semibold text-gray-900 dark:text-white">TO<a href="/projects" class="text-lime-500 underline"><span class="px-2 text-7xl font-extrabold">P</span><span class="text-4xl font-semibold">r o j e c t s</span></a></h1>
+      </div>
+    <Card padding="none">
+
+    <a href="https://bitcoin-street.vercel.app" target="_blank" rel="noreferrer">
+      <img class="p-8 rounded-t-lg" src={btcstreetico} alt="product 1" />
+    </a>
+    <div class="px-5 pb-5">
+      <a href="/">
+        <h5 class='text-xl font-semibold tracking-tight text-gray-900 dark:text-white'>
+          BTC LIVE PRICE $ | Crypto, Bitcoin News | Crypto Converter | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing | Convert Btc Satoshi To USD"
+        </h5>
+      </a>
+      <Rating rating="4" size="18" class="mt-2.5 mb-5">
+        <Badge slot="text" class="ml-3">4</Badge>
+      </Rating>
+      <div class="flex justify-between items-center">
+        <span class="text-3xl font-bold text-gray-900 dark:text-white">OpenSource</span>
+        <Button href="https://bitcoin-street.vercel.app" target="_blank" rel="noreferrer">Go now</Button>
+      </div>
+    </div>
+  </Card>
+  </div>
+
+  
 
   <div
     class="w-full max-w-lg mt-6 font-light text-center text-gray-600 dark:text-gray-300"

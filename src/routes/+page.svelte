@@ -55,14 +55,14 @@
 
     <a
     href="https://github.com/d3j1x"
-    class="my-4 px-4 py-1 sm:text-lg font-bold text-gray-600 transition-all rounded-full shadow-sm bg-white/30 dark:bg-white/80 ring-1 ring-gray-900/5 dark:text-black hover:shadow-lg active:shadow-sm"
+    class="mt-5 px-4 py-1 sm:text-lg font-bold text-gray-600 transition-all rounded-full shadow-sm bg-white/30 dark:bg-white/80 ring-1 ring-gray-900/5 dark:text-black hover:shadow-lg active:shadow-sm"
   >
     @d3j1x
   </a>
     
 
     <div
-      class="flex flex-col items-center w-full max-w-xl p-12 mx-auto rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg"
+      class="mt-6 flex flex-col items-center w-full max-w-xl p-12 mx-auto rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg"
     >
       <div class="mb-6 text-lg text-center font-bold sm:text-xl">
       Cyber Security Specialist !
@@ -82,7 +82,7 @@
     </div>
   </div>
 
-  <div class="my-5">
+  <div class="my-10">
       <div class="my-5">
         <h1 class="text-center text-7xl font-semibold text-gray-900 dark:text-white">TO<a href="/projects" class="text-lime-500 underline"><span class="px-2 text-7xl font-extrabold">P</span><span class="text-4xl font-semibold">r o j e c t s</span></a></h1>
       </div>
@@ -94,7 +94,7 @@
     <div class="px-5 pb-5">
       <a href="/">
         <h5 class='text-xl font-semibold tracking-tight text-gray-900 dark:text-white'>
-          BTC LIVE PRICE $ | Crypto, Bitcoin News | Crypto Converter | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing | Convert Btc Satoshi To USD"
+          BTC LIVE PRICE $ | Crypto - Bitcoin News | Crypto Converter | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing | Convert Btc Satoshi To USD"
         </h5>
       </a>
       <Rating rating="4" size="18" class="mt-2.5 mb-5">

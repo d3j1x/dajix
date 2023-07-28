@@ -1,5 +1,5 @@
 <script>
-
+    import { Badge } from 'flowbite-svelte';
 </script>
 
 
@@ -25,8 +25,13 @@
 
 <hr class="w-11/12 h-1 my-5 bg-black rounded dark:bg-white" />
 
+</main>
 
+<div class="flex text-center justify-end mx-10 md:mx-20 lg:mx-32 text-xl mb-5 font-bold">
+  <a  href="/about/contact"><Badge rounded color="purple" class="px-5 text-lg font-bold">Contact</Badge></a>
+</div>
 
+<div class="text-center text-lg justify-around p-30 m-50 ">
 
 
 <div class="">P R I C I N G</div>
@@ -54,4 +59,4 @@
 <div class="pt-20">P R I C I N G</div>
 <div class="pt-20">P R I C I N G</div>
 
-</main>
+</div>

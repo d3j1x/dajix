@@ -37,10 +37,10 @@
 </div>
 
 
-<div class="text-center text-3xl justify-center m-8 md:px-20 lg:px-40 ">
+<div class="text-center text-2xl justify-center m-8 md:px-20 lg:px-40 font-mono">
   I am a highly skilled and dedicated professional, possessing a unique blend of expertise in both cyber security and full stack development. My passion lies in safeguarding digital landscapes while building innovative and robust web applications. With a solid foundation in both domains, I thrive in tackling complex challenges and delivering comprehensive solutions to ensure the safety and functionality of digital systems.
 
-<div class="text-left text-2xl justify-center m-6">
+<div class="text-left text-xl justify-center my-6">
   <span class="underline font-semibold">Cyber Security Specialist:</span><br>
 As a cyber security specialist, I have honed my skills in identifying, mitigating, and preventing security breaches, ensuring the confidentiality, integrity, and availability of critical data. My experience includes conducting thorough security assessments, vulnerability testing, and penetration testing to fortify systems against potential threats. Whether it's designing secure network architectures, implementing access controls, or analyzing security logs for suspicious activities, I am adept at developing tailored security strategies to address specific organizational needs.
 
@@ -48,7 +48,7 @@ In addition to technical expertise, I keep abreast of the latest cyber threats a
 
 </div>
 
-<div class="text-left text-2xl justify-center m-6">
+<div class="text-left text-xl justify-center my-6">
   <span class="underline font-semibold">Full Stack Developer:</span><br>
   As a full stack developer, I possess a deep understanding of front-end and back-end technologies, allowing me to create dynamic and responsive web applications from conception to deployment. My proficiency in HTML, CSS, JavaScript, and modern frameworks enables me to build intuitive user interfaces that enhance the overall user experience.
 
@@ -58,7 +58,7 @@ In addition to technical expertise, I keep abreast of the latest cyber threats a
   
 </div>
 
-<div class="text-center text-xl justify-center m-6">
+<div class="text-center text-xl justify-center my-6">
   <span class="underline font-semibold">Conclusion:</span><br>
 
   In summary, I am a proficient and well-rounded professional, adept at protecting digital assets as a cyber security specialist and creating innovative web applications as a full stack developer. My passion for technology, coupled with a keen eye for security, allows me to bridge the gap between cutting-edge digital experiences and robust data protection. With a track record of success in both domains, I am eager to contribute my expertise to new and exciting challenges, helping organizations thrive in the digital age.

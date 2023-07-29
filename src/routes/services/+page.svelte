@@ -26,36 +26,36 @@
 <hr class="w-11/12 h-1 my-5 bg-black rounded dark:bg-white" />
 </main>
 
-<div class="text-center text-3xl justify-center m-8 md:px-20 lg:px-40 ">
+<div class="text-center text-2xl justify-center m-8 md:px-20 lg:px-40 font-thin">
 My Best Services
-<div class="text-left text-2xl justify-center m-6">
-  <span class="underline font-semibold">Cyber Security Services:</span><br>
-  a. Vulnerability Assessments: Conduct comprehensive security assessments to identify potential vulnerabilities in clients' digital assets and provide actionable recommendations for improvement.
+<div class="text-left text-xl justify-center my-6">
+  <span class="underline font-semibold text-2xl">Cyber Security Services:</span><br>
+  1. Vulnerability Assessments: Conduct comprehensive security assessments to identify potential vulnerabilities in clients' digital assets and provide actionable recommendations for improvement.
   <br><br>
-  b. Penetration Testing: Perform controlled ethical hacking attempts to simulate real-world cyber attacks, helping clients understand their security weaknesses and fortify their defenses.
+  2. Penetration Testing: Perform controlled ethical hacking attempts to simulate real-world cyber attacks, helping clients understand their security weaknesses and fortify their defenses.
   <br><br>
-  c. Security Audits: Conduct thorough audits of clients' existing security measures, policies, and procedures to ensure compliance with industry standards and best practices.
+  3. Security Audits: Conduct thorough audits of clients' existing security measures, policies, and procedures to ensure compliance with industry standards and best practices.
   <br><br>
-  d. Network Security: Design and implement secure network architectures, firewalls, and intrusion detection systems to protect against unauthorized access and data breaches.
+  4. Network Security: Design and implement secure network architectures, firewalls, and intrusion detection systems to protect against unauthorized access and data breaches.
   <br><br>
-  e. Data Protection: Develop strategies and implement encryption, access controls, and data loss prevention measures to safeguard sensitive information.
+  5. Data Protection: Develop strategies and implement encryption, access controls, and data loss prevention measures to safeguard sensitive information.
   <br><br>
-  f. Incident Response: Provide incident response services to promptly address and mitigate security incidents, minimizing potential damage and downtime.
+  6. Incident Response: Provide incident response services to promptly address and mitigate security incidents, minimizing potential damage and downtime.
 </div>
 <hr class="h-1 my-5 bg-black rounded dark:bg-white">
-<div class="text-left text-2xl justify-center m-6">
-  <span class="underline font-semibold">Full Stack Development Services:</span><br>
-a. Web Application Development: Build custom web applications from the ground up, tailored to meet clients' specific requirements and user experience goals.
+<div class="text-left text-xl justify-center my-6">
+  <span class="underline font-semibold text-2xl">Full Stack Development Services:</span><br>
+1. Web Application Development: Build custom web applications from the ground up, tailored to meet clients' specific requirements and user experience goals.
 <br><br>
-b. Responsive Web Design: Create mobile-friendly and responsive web applications that adapt seamlessly to various devices and screen sizes.
+2. Responsive Web Design: Create mobile-friendly and responsive web applications that adapt seamlessly to various devices and screen sizes.
 <br><br>
-c. Back-End Development: Develop scalable and efficient server-side architectures using programming languages like Python, Node.js, or PHP.
+3. Back-End Development: Develop scalable and efficient server-side architectures using programming languages like Python, Node.js, or PHP.
 <br><br>
-d. Front-End Development: Design intuitive and visually appealing user interfaces using HTML, CSS, JavaScript, and modern front-end frameworks like React or Angular.
+4. Front-End Development: Design intuitive and visually appealing user interfaces using HTML, CSS, JavaScript, and modern front-end frameworks like React or Angular.
 <br><br>
-e. API Development: Create robust and secure APIs that enable seamless communication between front-end and back-end components, promoting data exchange and integration with other services.
+5. API Development: Create robust and secure APIs that enable seamless communication between front-end and back-end components, promoting data exchange and integration with other services.
 <br><br>
-f. Database Management: Implement and manage databases like MySQL, MongoDB, or PostgreSQL, ensuring data integrity and optimal performance.
+6. Database Management: Implement and manage databases like MySQL, MongoDB, or PostgreSQL, ensuring data integrity and optimal performance.
 
 <!-- 
 Secure Software Development Lifecycle (SDLC):

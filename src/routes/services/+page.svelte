@@ -26,7 +26,7 @@
 <hr class="w-11/12 h-1 my-5 bg-black rounded dark:bg-white" />
 </main>
 
-<div class="text-center text-2xl justify-center m-8 md:px-20 lg:px-40 font-thin">
+<div class="text-center text-2xl justify-center m-8 md:px-20 lg:px-40 font-mono">
 My Best Services
 <div class="text-left text-xl justify-center my-6">
   <span class="underline font-semibold text-2xl">Cyber Security Services:</span><br>

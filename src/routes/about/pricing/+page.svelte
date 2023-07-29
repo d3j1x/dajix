@@ -31,32 +31,9 @@
   <a  href="/about/contact"><Badge rounded color="purple" class="px-5 text-lg font-bold">Contact</Badge></a>
 </div>
 
-<div class="text-center text-lg justify-around p-30 m-50 ">
+<div class="text-center text-lg justify-around p-10 m-20 font-serif">
 
-
-<div class="">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
-<div class="pt-20">P R I C I N G</div>
+  <div>PAYEER PAYMENT</div>
+  <div>BITCOIN ACCEPTED</div>
 
 </div>

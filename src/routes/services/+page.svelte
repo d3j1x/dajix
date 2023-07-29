@@ -24,31 +24,54 @@
 <div class="titleClass">S E R V I C E S</div>
 
 <hr class="w-11/12 h-1 my-5 bg-black rounded dark:bg-white" />
-
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
-<div class="pt-20">S E R V I C E S</div>
 </main>
+
+<div class="text-center text-3xl justify-center m-8 md:px-20 lg:px-40 ">
+My Best Services
+<div class="text-left text-2xl justify-center m-6">
+  <span class="underline font-semibold">Cyber Security Services:</span><br>
+  a. Vulnerability Assessments: Conduct comprehensive security assessments to identify potential vulnerabilities in clients' digital assets and provide actionable recommendations for improvement.
+  <br><br>
+  b. Penetration Testing: Perform controlled ethical hacking attempts to simulate real-world cyber attacks, helping clients understand their security weaknesses and fortify their defenses.
+  <br><br>
+  c. Security Audits: Conduct thorough audits of clients' existing security measures, policies, and procedures to ensure compliance with industry standards and best practices.
+  <br><br>
+  d. Network Security: Design and implement secure network architectures, firewalls, and intrusion detection systems to protect against unauthorized access and data breaches.
+  <br><br>
+  e. Data Protection: Develop strategies and implement encryption, access controls, and data loss prevention measures to safeguard sensitive information.
+  <br><br>
+  f. Incident Response: Provide incident response services to promptly address and mitigate security incidents, minimizing potential damage and downtime.
+</div>
+<hr class="h-1 my-5 bg-black rounded dark:bg-white">
+<div class="text-left text-2xl justify-center m-6">
+  <span class="underline font-semibold">Full Stack Development Services:</span><br>
+a. Web Application Development: Build custom web applications from the ground up, tailored to meet clients' specific requirements and user experience goals.
+<br><br>
+b. Responsive Web Design: Create mobile-friendly and responsive web applications that adapt seamlessly to various devices and screen sizes.
+<br><br>
+c. Back-End Development: Develop scalable and efficient server-side architectures using programming languages like Python, Node.js, or PHP.
+<br><br>
+d. Front-End Development: Design intuitive and visually appealing user interfaces using HTML, CSS, JavaScript, and modern front-end frameworks like React or Angular.
+<br><br>
+e. API Development: Create robust and secure APIs that enable seamless communication between front-end and back-end components, promoting data exchange and integration with other services.
+<br><br>
+f. Database Management: Implement and manage databases like MySQL, MongoDB, or PostgreSQL, ensuring data integrity and optimal performance.
+
+<!-- 
+Secure Software Development Lifecycle (SDLC):
+Offer services that integrate security practices throughout the software development lifecycle, ensuring security is a top priority from the initial planning stages to deployment and maintenance.
+
+Training and Workshops:
+Conduct cybersecurity awareness training for organizations and developers, educating them on best security practices and the importance of secure coding.
+
+Code Review and Security Consulting:
+Provide code review services to identify potential security vulnerabilities in existing applications and offer expert advice on secure coding practices.
+
+Cloud Security Services:
+Specialize in securing cloud-based infrastructures and applications, ensuring data protection and compliance in cloud environments like AWS, Azure, or Google Cloud. -->
+
+</div>
+</div>
+
 
 

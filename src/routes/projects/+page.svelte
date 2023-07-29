@@ -65,32 +65,4 @@ Specialized in the field of media services and modern technology.
 
 </div>
 
-
-
-
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-<div class="pt-20">P R O J E C T S</div>
-
 </main>

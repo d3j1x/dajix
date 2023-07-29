@@ -31,9 +31,10 @@
   <a  href="/about/contact"><Badge rounded color="purple" class="px-5 text-lg font-bold">Contact</Badge></a>
 </div>
 
-<div class="text-center text-lg justify-around p-10 m-20 font-serif">
+<div class="text-center text-3xl justify-around py-10 mx-2 my-32 font-semibold font-serif bg-lime-600 rounded-2xl">
 
   <div>PAYEER PAYMENT</div>
+  <br><br>
   <div>BITCOIN ACCEPTED</div>
 
 </div>

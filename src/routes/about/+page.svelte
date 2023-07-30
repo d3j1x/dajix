@@ -37,10 +37,12 @@
 </div>
 
 
-<div class="text-center text-2xl justify-center m-8 p-2 md:px-20 lg:px-40 font-mono rounded-2xl dark:bg-slate-900">
-  I am a highly skilled and dedicated professional, possessing a unique blend of expertise in both cyber security and full stack development.
-  <br><br>My passion lies in safeguarding digital landscapes while building innovative and robust web applications.
-  <br><br>With a solid foundation in both domains, I thrive in tackling complex challenges and delivering comprehensive solutions to ensure the safety and functionality of digital systems.
+<div class="text-center text-2xl justify-center mx-2 my-8 p-2 md:px-20 lg:px-40 font-mono rounded-2xl dark:bg-slate-900">
+  <div class=" bg-slate-500 dark:bg-lime-950 rounded-xl">
+    I am a highly skilled and dedicated professional, possessing a unique blend of expertise in both cyber security and full stack development.
+    <br><br>My passion lies in safeguarding digital landscapes while building innovative and robust web applications.
+    <br><br>With a solid foundation in both domains, I thrive in tackling complex challenges and delivering comprehensive solutions to ensure the safety and functionality of digital systems.
+  </div>
 
 <div class="text-left text-xl justify-center my-8">
   <span class="underline text-2xl font-semibold">Cyber Security Specialist:</span><br><br>
@@ -66,8 +68,8 @@ As a cyber security specialist, I have honed my skills in identifying, mitigatin
   
 </div>
 
-<div class="text-center text-xl justify-center my-6">
-  <span class="underline text-2xl font-semibold">Conclusion:</span><br><br>
+<div class="dark:bg-black text-center text-xl justify-center my-6 rounded-xl p-2">
+  <span class="underline font-semibold">Conclusion:</span><br><br>
 
   In summary, I am a proficient and well-rounded professional, adept at protecting digital assets as a cyber security specialist and creating innovative web applications as a full stack developer.
   <br><br>My passion for technology, coupled with a keen eye for security, allows me to bridge the gap between cutting-edge digital experiences and robust data protection.

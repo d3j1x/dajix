@@ -63,11 +63,13 @@ Specialized in the field of media services and modern technology.
     </Card>
     
   </div>
+  
+  <div class="m-2 lg:col-span-2">
+    <Ads />
+  </div>
 
 </div>
 
-<div class="m-2 w-2/3">
-  <Ads />
-</div>
+
 
 </main>

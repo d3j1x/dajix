@@ -60,17 +60,8 @@ Specialized in the field of media services and modern technology.
         </a>
         
       </Button>
-    </Card>
-    
+    </Card>    
   </div>
-  
 
 </div>
-
-
-
 </main>
-
-<div class="m-2">
-  <Ads />
-</div>

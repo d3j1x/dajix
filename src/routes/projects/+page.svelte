@@ -66,7 +66,7 @@ Specialized in the field of media services and modern technology.
 
 </div>
 
-<div class="m-1">
+<div class="m-2 w-2/3">
   <Ads />
 </div>
 

@@ -1,6 +1,7 @@
 <script>
 
 import { Card, Button } from "flowbite-svelte";
+import Ads from '$lib/components/Ads.svelte';
 
 </script>
 
@@ -63,6 +64,10 @@ Specialized in the field of media services and modern technology.
     
   </div>
 
+</div>
+
+<div class="m-1">
+  <Ads />
 </div>
 
 </main>

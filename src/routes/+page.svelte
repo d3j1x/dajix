@@ -10,6 +10,8 @@
   import vclogo from '$lib/img/vercel.svg';
   import svlogo from '$lib/img/svelte_logo.png';
   import fblogo from '$lib/img/f128.png';
+  import heartlg from '$lib/img/heart.svg';
+  import kabaalg from '$lib/img/kaaba.svg';
 
   import btcstreetico from '$lib/img/btcstreetico.jpg'
 
@@ -154,7 +156,31 @@
       <img id="imggth" src={ghlogo} alt="GitHub Logo" class="h-6 dark:invert" />
       <p class="font-light">Source</p>
     </a>
+    
+    <!-- <a
+      href="https://quran.com/"
+      class="flex items-center h-8 mt-auto space-x-2 bottom-20 right-20"
+      >
+      
+      <img id="imghrt" src={heartlg} alt="Heart Logo" class="h-6 dark:invert" />
+      <p class="font-semibold">Proud of</p>
+      <img id="imgkb" src={kabaalg} alt="Kabaa Logo" class="h-6 dark:invert" />
+      <p class="font-bold">ISLAM</p>
+
+    </a> -->
   </div>
+
+  <a
+      href="https://quran.com/"
+      class="flex items-center h-8 py-10 mt-auto space-x-2 bottom-20 right-20"
+      >
+      
+      <img id="imghrt" src={heartlg} alt="Heart Logo" class="h-6 dark:invert" />
+      <p class="font-semibold">Proud of</p>
+      <img id="imgkb" src={kabaalg} alt="Kabaa Logo" class="h-6 dark:invert" />
+      <p class="font-bold">ISLAM</p>
+
+    </a>
 </main>
 
 <section>

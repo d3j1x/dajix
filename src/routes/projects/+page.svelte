@@ -64,12 +64,13 @@ Specialized in the field of media services and modern technology.
     
   </div>
   
-  <div class="m-2 lg:col-span-2">
-    <Ads />
-  </div>
 
 </div>
 
 
 
 </main>
+
+<div class="m-2">
+  <Ads />
+</div>

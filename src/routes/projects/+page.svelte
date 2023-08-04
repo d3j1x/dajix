@@ -29,11 +29,10 @@ import Ads from '$lib/components/Ads.svelte';
 
 <hr class="w-11/12 h-1 my-5  bg-black rounded dark:bg-white" />
 
-<div class="m-2">
-  <Ads />
-</div>
+</main>
 
-<div class="grid gap-10 lg:grid-cols-2  lg:gap-20">
+
+<div class="grid justify-center gap-10 lg:grid-cols-2  lg:gap-20">
 
   <div class="lg:col-span-1">
     <Card>
@@ -68,4 +67,7 @@ Specialized in the field of media services and modern technology.
   </div>
 
 </div>
-</main>
+
+<div class="m-2 justify-center">
+  <Ads />
+</div>

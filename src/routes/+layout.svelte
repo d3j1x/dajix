@@ -14,6 +14,14 @@
 
 </script>
 
+<head>
+	<!-- Other meta tags, styles, etc. -->
+  
+	<!-- Google AdSense code -->
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8680606694948950"
+	   crossorigin="anonymous"></script>
+</head>
+
 <div>
 
 	<div class="md:hidden">

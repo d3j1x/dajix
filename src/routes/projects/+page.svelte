@@ -68,6 +68,3 @@ Specialized in the field of media services and modern technology.
 
 </div>
 
-<div class="m-2 justify-center">
-  <Ads />
-</div>

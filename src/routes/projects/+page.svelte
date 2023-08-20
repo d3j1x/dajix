@@ -1,7 +1,6 @@
 <script>
 
 import { Card, Button } from "flowbite-svelte";
-import Ads from '$lib/components/Ads.svelte';
 
 </script>
 
@@ -32,13 +31,13 @@ import Ads from '$lib/components/Ads.svelte';
 </main>
 
 
-<div class="grid justify-center gap-10 lg:grid-cols-2  lg:gap-20">
+<div class="grid justify-around gap-10 md:grid-cols-2  md:gap-3">
 
-  <div class="lg:col-span-1">
-    <Card>
+  <div class="md:col-span-1 text-center justify-center items-center mx-auto">
+    <Card class="justify-center items-center mx-auto">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bitcoin Street</h5>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
-        BTC LIVE PRICE $ | Crypto, Bitcoin News | Crypto Converter | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing.
+        BTC LIVE $ | Crypto, Bitcoin News | Crypto Converter | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing.
       </p>
       <Button class="w-fit">
         <a class="flex" href="https://bitcoin-street.vercel.app" target="_blank" rel="noreferrer">
@@ -50,8 +49,8 @@ import Ads from '$lib/components/Ads.svelte';
     
   </div>
 
-  <div class="lg:col-span-1">
-    <Card>
+  <div class="md:col-span-1 text-center justify-center items-center mx-auto">
+    <Card class="justify-center items-center mx-auto">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMRT MRKT</h5>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
         Smrt Mrkt is an emerging company.

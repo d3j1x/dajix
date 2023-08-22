@@ -31,7 +31,24 @@ import { Card, Button } from "flowbite-svelte";
 </main>
 
 
-<div class="grid justify-around gap-10 md:grid-cols-2  md:gap-3">
+<div class="grid justify-around gap-10 md:grid-cols-2  md:gap-3 lg:grid-cols-3">
+
+  <div class="md:col-span-1 text-center justify-center items-center mx-auto">
+    <Card class="justify-center items-center mx-auto">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cyber X</h5>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
+        Cyber X Is Just Awesome Opensource. Best Of Cybersecurity Tips Hint Source...
+      </p>
+      <Button class="w-fit">
+        <a class="flex" href="https://cyberx.vercel.app" target="_blank" rel="noreferrer">
+          Go To <p class="mx-2 underline font-bold">CyberX</p> Web App
+        </a>
+        
+      </Button>
+    </Card>
+    
+  </div>
+
 
   <div class="md:col-span-1 text-center justify-center items-center mx-auto">
     <Card class="justify-center items-center mx-auto">

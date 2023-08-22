@@ -31,10 +31,10 @@ import { Card, Button } from "flowbite-svelte";
 </main>
 
 
-<div class="grid justify-around gap-10 md:grid-cols-2  md:gap-3 lg:grid-cols-3">
+<div class="grid justify-around gap-10 md:grid-cols-2  md:gap-4 xl:grid-cols-3 mx-1">
 
-  <div class="md:col-span-1 text-center justify-center items-center mx-auto">
-    <Card class="justify-center items-center mx-auto">
+  <div class="grid md:col-span-1 text-center justify-center items-center mx-auto">
+    <Card class="justify-center items-center mx-auto h-44">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cyber X</h5>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
         Cyber X Is Just Awesome Opensource. Best Of Cybersecurity Tips Hint Source...
@@ -50,8 +50,8 @@ import { Card, Button } from "flowbite-svelte";
   </div>
 
 
-  <div class="md:col-span-1 text-center justify-center items-center mx-auto">
-    <Card class="justify-center items-center mx-auto">
+  <div class="grid md:col-span-1 text-center justify-center items-center mx-auto">
+    <Card class="justify-center items-center mx-auto h-44">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bitcoin Street</h5>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
         BTC LIVE $ | Crypto, Bitcoin News | Crypto Converter | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing.
@@ -66,8 +66,8 @@ import { Card, Button } from "flowbite-svelte";
     
   </div>
 
-  <div class="md:col-span-1 text-center justify-center items-center mx-auto">
-    <Card class="justify-center items-center mx-auto">
+  <div class="grid md:col-span-1 text-center justify-center items-center mx-auto">
+    <Card class="justify-center items-center mx-auto h-44">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMRT MRKT</h5>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
         Smrt Mrkt is an emerging company.

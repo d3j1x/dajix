@@ -10,6 +10,7 @@
   import vclogo from '$lib/img/vercel.svg';
   import svlogo from '$lib/img/svelte_logo.png';
   import fblogo from '$lib/img/f128.png';
+  import inlogo from '$lib/img/l128.png';
   import heartlg from '$lib/img/heart.svg';
   import kabaalg from '$lib/img/kaaba.svg';
 
@@ -26,7 +27,7 @@
 
 <svelte:head>
 	<title>Shiheb Din</title>
-	<meta name="description" content="DajiX" />
+	<meta name="description" content="DajiX portfolio opensource SVELTEKIT TAILWIND FLOWBITE" />
 </svelte:head>
 
 
@@ -118,10 +119,10 @@
     <div class="flex items-center justify-center my-2">
       <span class="font-bold">CONTACT</span>
       <a
-        href="https://facebook.com/profile.php?id=100073939376761"
+        href="https://www.linkedin.com/in/shihab-din-719b3b285/"
         class="flex items-center font-extrabold underline transition-colors underline-offset-4 dark:hover:text-white hover:text-black hover:no-underline"
       >
-      <img src={fblogo} alt="fb logo" class="h-6 mx-2" />
+      <img src={inlogo} alt="in logo" class="h-6 mx-2" />
       <p>ME</p>
     </a>
     </div>

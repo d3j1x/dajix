@@ -2,6 +2,10 @@
 // @ts-nocheck
 
 
+  import { t } from '$lib/translations';
+
+  const pageName = 'This page is Home page!';
+
   import { Card, Button, Rating, Badge } from "flowbite-svelte";
   
 	
@@ -39,11 +43,19 @@
 > 
 
   
-  <h1
+  <!-- <h1
     class="mt-12 md:mt-20 pt-4 pb-8 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
     >
     I'm Shihab Din
+  </h1> -->
+
+  <h1
+  class="mt-12 md:mt-20 pt-4 pb-8 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+  >
+  {$t('home.name')}
   </h1>
+
+
 
   <div class="flex items-center flex-col grow">
 
@@ -183,6 +195,12 @@
 
     </a>
 </main>
+
+<div>
+  <!-- you can use `placeholders` and `modifiers` in your definitions (see docs) -->
+  <h2>{$t('common.page', { pageName })}</h2>
+  <p>{$t('home.content')}</p>
+</div>
 
 <section>
   <button

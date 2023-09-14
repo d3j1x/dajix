@@ -49,10 +49,10 @@
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
 		<NavUl {hidden} class="font-bold" >
-		  <NavLi href="/" active={true} on:click={toggle}>Home</NavLi>
-		  <NavLi href="/projects" on:click={toggle}>Projects</NavLi>
-		  <NavLi href="/services" on:click={toggle}>Services</NavLi>
-		  <NavLi href="/about" on:click={toggle}>About</NavLi>
+		  <NavLi href="/" active={true} on:click={toggle}>{$t('common.home')}</NavLi>
+		  <NavLi href="/projects" on:click={toggle}>{$t('common.projects')}</NavLi>
+		  <NavLi href="/services" on:click={toggle}>{$t('common.services')}</NavLi>
+		  <NavLi href="/about" on:click={toggle}>{$t('common.about')}</NavLi>
 		  <CloseButton class="sm:hidden" on:click={toggle} />
 		</NavUl>
 	</Navbar>
@@ -73,10 +73,10 @@
 			</NavBrand>
 			<NavHamburger on:click={toggle} />
 			<NavUl {hidden} class="font-bold" >
-			  <NavLi href="/" active={true}>Home</NavLi>
-			  <NavLi href="/projects">Projects</NavLi>
-			  <NavLi href="/services">Services</NavLi>
-			  <NavLi href="/about">About</NavLi>
+			  <NavLi href="/" active={true}>{$t('common.home')}</NavLi>
+			  <NavLi href="/projects">{$t('common.projects')}</NavLi>
+			  <NavLi href="/services">{$t('common.services')}</NavLi>
+			  <NavLi href="/about">{$t('common.about')}</NavLi>
 			  <CloseButton class="sm:hidden" on:click={toggle} />
 			</NavUl>
 		</Navbar>

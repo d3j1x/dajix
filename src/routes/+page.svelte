@@ -2,9 +2,7 @@
 // @ts-nocheck
 
 
-  import { t } from '$lib/translations';
-
-  const pageName = 'This page is Home page!';
+  import { t, locale, locales } from "./i18n";
 
   import { Card, Button, Rating, Badge } from "flowbite-svelte";
   
@@ -35,7 +33,13 @@
 </svelte:head>
 
 
-
+	<div class="font-semibold fixed top-20 right-5 flex items-center justify-center bg-black z-40">
+		<select class="border  dark:bg-black text-black dark:text-white m-0 p-0 pl-2" bind:value="{$locale}">
+		  <option value="en">English</option>
+		  <option value="ar">عربي</option>
+		  <option value="ru">Русский</option>
+		</select>
+	</div>
 
 
 <main
@@ -52,7 +56,7 @@
   <h1
   class="mt-12 md:mt-20 pt-4 pb-8 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
   >
-  {$t('home.name')}
+  {$t('homepage.name')}
   </h1>
 
 
@@ -196,11 +200,7 @@
     </a>
 </main>
 
-<div>
-  <!-- you can use `placeholders` and `modifiers` in your definitions (see docs) -->
-  <h2>{$t('common.page', { pageName })}</h2>
-  <p>{$t('home.content')}</p>
-</div>
+
 
 <section>
   <button

@@ -1,0 +1,32 @@
+export default {
+    en: {
+      "homepage.name": "Shihab Din",
+      "homepage.welcome": "Hi <strong>{{name}}</strong>, how are you?",
+      "homepage.time": "The current time is: {{time}}",
+      "homepage.title": "Hello, World!",
+      "homepage.home": "Home",
+      "homepage.projects": "Projects",
+      "homepage.services": "Services",
+      "homepage.about": "About",
+    },
+    ar: {
+      "homepage.name": "شهاب الدين",
+      "homepage.welcome": "Hola, <strong>{{name}}</strong>, ¿cómo estás?",
+      "homepage.time": "La hora actual es: {{time}}",
+      "homepage.title": "La hora actual es: {{time}}",
+      "homepage.home": "الصفحة الرئيسية",
+      "homepage.projects": "المشاريع",
+      "homepage.services": "الخدمات",
+      "homepage.about": "عني",
+    },
+    ru: {
+        "homepage.name": "Шихаб Алдин",
+        "homepage.welcome": "Hi <strong>{{name}}</strong>, how are you?",
+        "homepage.time": "The current time is: {{time}}",
+        "homepage.title": "Hello, World!",
+        "homepage.home": "Домашняя страница",
+        "homepage.projects": "Проекты",
+        "homepage.services": "Услуги",
+        "homepage.about": "Обо мне",
+    },
+  };

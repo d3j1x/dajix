@@ -1,14 +1,8 @@
 <script>
 
-	import { t, locale, locales } from '$lib/translations';
 
-
-	// @ts-ignore
-	const handleChange = ({ currentTarget }) => {
-  		const { value } = currentTarget;
-
-  		document.cookie = `lang=${value} ;`;
-	};
+	import { t, locale, locales } from "./i18n";
+	
 
 	import "../app.css";
 
@@ -49,11 +43,11 @@
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
 		<NavUl {hidden} class="font-bold" >
-		  <NavLi href="/" active={true} on:click={toggle}>{$t('common.home')}</NavLi>
-		  <NavLi href="/projects" on:click={toggle}>{$t('common.projects')}</NavLi>
-		  <NavLi href="/services" on:click={toggle}>{$t('common.services')}</NavLi>
-		  <NavLi href="/about" on:click={toggle}>{$t('common.about')}</NavLi>
-		  <CloseButton class="sm:hidden" on:click={toggle} />
+		  <NavLi href="/" active={true} on:click={toggle}>{$t("homepage.home")}</NavLi>
+		  <NavLi href="/projects" on:click={toggle}>{$t("homepage.projects")}</NavLi>
+		  <NavLi href="/services" on:click={toggle}>{$t("homepage.services")}</NavLi>
+		  <NavLi href="/about" on:click={toggle}>{$t("homepage.about")}</NavLi>
+		  <CloseButton class="md:hidden" on:click={toggle} />
 		</NavUl>
 	</Navbar>
 	</div>
@@ -73,11 +67,11 @@
 			</NavBrand>
 			<NavHamburger on:click={toggle} />
 			<NavUl {hidden} class="font-bold" >
-			  <NavLi href="/" active={true}>{$t('common.home')}</NavLi>
-			  <NavLi href="/projects">{$t('common.projects')}</NavLi>
-			  <NavLi href="/services">{$t('common.services')}</NavLi>
-			  <NavLi href="/about">{$t('common.about')}</NavLi>
-			  <CloseButton class="sm:hidden" on:click={toggle} />
+			  <NavLi href="/" active={true}>{$t("homepage.home")}</NavLi>
+			  <NavLi href="/projects">{$t('homepage.projects')}</NavLi>
+			  <NavLi href="/services">{$t('homepage.services')}</NavLi>
+			  <NavLi href="/about">{$t('homepage.about')}</NavLi>
+			  <CloseButton class="md:hidden" on:click={toggle} />
 			</NavUl>
 		</Navbar>
 	
@@ -98,13 +92,13 @@
 		</select>
 	</div> -->
 
-	<div class="font-semibold fixed top-20 right-5 flex items-center justify-center bg-black z-40">
+	<!-- <div class="font-semibold fixed top-20 right-5 flex items-center justify-center bg-black z-40">
 		<select class="border  dark:bg-black text-black dark:text-white m-0 p-0 pl-2" bind:value="{$locale}" on:change={handleChange}>
 		  <option value="en">English</option>
 		  <option value="ar">عربي</option>
 		  <option value="ru">Русский</option>
 		</select>
-	</div>
+	</div> -->
 
 
 	

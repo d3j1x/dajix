@@ -28,7 +28,7 @@
 </script>
 
 <svelte:head>
-	<title>Shiheb Din</title>
+	<title>Shihab Al-Din</title>
 	<meta name="description" content="DajiX portfolio opensource SVELTEKIT TAILWIND FLOWBITE" />
 </svelte:head>
 
@@ -84,12 +84,12 @@
       class="mt-6 flex flex-col items-center w-full max-w-xl p-12 mx-auto rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg"
     >
       <div class="mb-6 text-lg text-center font-bold sm:text-xl">
-      Cyber Security Specialist !
+        {$t('homepage.job')}
       </div>
       <button
       class=" sm:text-lg text-lime-500 mb-6 font-bold opacity-100 hover:underline"
       >
-      Security, Privacy & Trust
+        {$t('homepage.jobDef')}
       </button>
       <div class="text-5xl font-bold">
       {data?.pageVisits} <span class="text-sm">Views</span>

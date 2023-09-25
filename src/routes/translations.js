@@ -1,6 +1,5 @@
 export default {
     en: {
-      "homepage.name": "Shihab Din",
       "homepage.welcome": "Hi <strong>{{name}}</strong>, how are you?",
       "homepage.time": "The current time is: {{time}}",
       "homepage.title": "Hello, World!",
@@ -8,9 +7,11 @@ export default {
       "homepage.projects": "Projects",
       "homepage.services": "Services",
       "homepage.about": "About",
+      "homepage.name": "Shihab Al-Din",
+      "homepage.job": "Cyber Security Specialist !",
+      "homepage.jobDef": "Security, Privacy & Trust",
     },
     ar: {
-      "homepage.name": "شهاب الدين",
       "homepage.welcome": "Hola, <strong>{{name}}</strong>, ¿cómo estás?",
       "homepage.time": "La hora actual es: {{time}}",
       "homepage.title": "La hora actual es: {{time}}",
@@ -18,9 +19,11 @@ export default {
       "homepage.projects": "المشاريع",
       "homepage.services": "الخدمات",
       "homepage.about": "عني",
+      "homepage.name": "شهاب الدين",
+      "homepage.job": "مختص في الأمن السيبراني !",
+      "homepage.jobDef": "الأمن، الخصوصية والثقة",
     },
     ru: {
-        "homepage.name": "Шихаб Алдин",
         "homepage.welcome": "Hi <strong>{{name}}</strong>, how are you?",
         "homepage.time": "The current time is: {{time}}",
         "homepage.title": "Hello, World!",
@@ -28,5 +31,8 @@ export default {
         "homepage.projects": "Проекты",
         "homepage.services": "Услуги",
         "homepage.about": "Обо мне",
+        "homepage.name": "Шихаб Алдин",
+        "homepage.job": "Специалист по кибербезопасности !",
+        "homepage.jobDef": "Безопасность, конфиденциальность и доверие",
     },
   };

@@ -10,6 +10,7 @@ export default {
       "homepage.name": "Shihab Al-Din",
       "homepage.job": "Cyber Security Specialist !",
       "homepage.jobDef": "Security, Privacy & Trust",
+      "homepage.views": "Views",
     },
     ar: {
       "homepage.welcome": "Hola, <strong>{{name}}</strong>, ¿cómo estás?",
@@ -20,8 +21,9 @@ export default {
       "homepage.services": "الخدمات",
       "homepage.about": "عني",
       "homepage.name": "شهاب الدين",
-      "homepage.job": "مختص في الأمن السيبراني !",
+      "homepage.job": "! مختص في الأمن السيبراني",
       "homepage.jobDef": "الأمن، الخصوصية والثقة",
+      "homepage.views": "مشاهدة",
     },
     ru: {
         "homepage.welcome": "Hi <strong>{{name}}</strong>, how are you?",
@@ -34,5 +36,6 @@ export default {
         "homepage.name": "Шихаб Алдин",
         "homepage.job": "Специалист по кибербезопасности !",
         "homepage.jobDef": "Безопасность, конфиденциальность и доверие",
+        "homepage.views": "Взгляды",
     },
   };

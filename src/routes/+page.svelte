@@ -54,7 +54,7 @@
   </h1> -->
 
   <h1
-  class="mt-12 md:mt-20 pt-4 pb-8 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+  class="mt-14 md:mt-20 pt-10 pb-10 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
   >
   {$t('homepage.name')}
   </h1>
@@ -92,7 +92,7 @@
         {$t('homepage.jobDef')}
       </button>
       <div class="text-5xl font-bold">
-      {data?.pageVisits} <span class="text-sm">Views</span>
+      {data?.pageVisits} <span class="text-sm">{$t('homepage.views')}</span>
       </div>
     </div>
 

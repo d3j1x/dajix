@@ -7,7 +7,7 @@
   import { Card, Button, Rating, Badge } from "flowbite-svelte";
   
 	
-  import logo from '$lib/img/logo.jpeg';
+  import logo from '$lib/img/logo.png';
   import ghlogo from '$lib/img/github.svg';
   import vclogo from '$lib/img/vercel.svg';
   import svlogo from '$lib/img/svelte_logo.png';
@@ -54,7 +54,7 @@
   </h1> -->
 
   <h1
-  class="mt-14 md:mt-20 pt-10 pb-10 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+  class="mt-14 md:mt-20 pt-10 pb-10 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-extrabold tracking-tight text-transparent md:text-7xl"
   >
   {$t('homepage.name')}
   </h1>
@@ -63,11 +63,11 @@
 
   <div class="flex items-center flex-col grow">
 
-    <div class="rounded-full overflow-hidden mb-2">
+    <div class="mb-2">
       <img
           src={logo}
           alt="d3j1x logo"
-          class="text-white dark:text-white w-60 sm:w-64 md:w-80  transform hover:scale-125  transition ease-in-out duration-300"
+          class="rounded-full text-white dark:text-white w-60 sm:w-64 md:w-80  transform hover:scale-110  transition ease-in-out duration-300"
           
         />
     </div>

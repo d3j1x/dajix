@@ -16,20 +16,9 @@
 <!-- <div class="text-center text-4xl  font-extrabold sm:text-5xl">P R O J E C T S</div> -->
 
 
-<div class="flex justify-between w-8/12 md:hidden text-lg   font-semibold ">
-    <a  class="underline hover:no-underline" href="/">Home</a>
-    <a  class="underline hover:no-underline px-10 md:px-20" href="/projects">Projects</a>
-    <a  class="underline hover:no-underline" href="/services">Services</a>
-</div>
+
 
 <div class="titleClass">A B O U T &nbsp; M E</div>
-
-
-
-<hr class="w-11/12 h-1 my-5 bg-black rounded dark:bg-white" />
-
-</main>
-
 
 <div class="flex text-center justify-between mx-10 md:mx-20 lg:mx-32 text-xl mb-5 font-bold">
   <a  href="/about/pricing"><Badge rounded color="green" class="px-5 text-lg font-bold">Pricing</Badge></a>
@@ -37,7 +26,7 @@
 </div>
 
 
-<div class="text-center text-2xl justify-center mx-2 my-8 p-2 md:px-20 lg:px-40 font-mono rounded-2xl dark:bg-slate-900">
+<div class="text-center text-2xl justify-center mx-2 my-8 p-2 md:px-20 lg:px-40 font-mono rounded-xl">
   <div class=" bg-slate-500 dark:bg-lime-950 rounded-xl">
     I am a highly skilled and dedicated professional, possessing a unique blend of expertise in both cyber security and full stack development.
     <br><br>My passion lies in safeguarding digital landscapes while building innovative and robust web applications.
@@ -78,5 +67,11 @@ As a cyber security specialist, I have honed my skills in identifying, mitigatin
 </div>
 
 </div>
+
+
+</main>
+
+
+
 
 

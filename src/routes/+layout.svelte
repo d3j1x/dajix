@@ -6,7 +6,7 @@
 
 	import "../app.css";
 
-	import logo from '$lib/img/logo.jpeg';
+	import logo from '$lib/img/logo.png';
 
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte'
 	import { DarkMode } from 'flowbite-svelte';
@@ -106,7 +106,7 @@
 
 
 
-	<main>
+	<main class="justify-center items-center text-center m-auto">
 		<slot />
 	</main>
 

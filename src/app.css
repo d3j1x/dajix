@@ -35,11 +35,14 @@
     --background-end-rgb: 0, 0, 0;
   }
 
-
-  .mainClass {
-    @apply pt-24  flex flex-col items-center justify-center ;
+  main {
+    min-height: 97vh;
+    padding-top: 50px;
+    margin: auto;
   }
 
+
+
   .titleClass {
-    @apply pt-5 text-center text-4xl  font-extrabold sm:text-5xl;
+    @apply my-10 text-center text-4xl  font-extrabold;
   }

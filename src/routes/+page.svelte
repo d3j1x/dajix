@@ -16,7 +16,8 @@
   import heartlg from '$lib/img/heart.svg';
   import kabaalg from '$lib/img/kaaba.svg';
 
-  import btcstreetico from '$lib/img/btcstreetico.jpg'
+  import btcstreetico from '$lib/img/btcstreetico.jpg';
+  import smxsl from '$lib/img/smxsl.png';
 
   export let data
   function refreshPage() {
@@ -43,7 +44,7 @@
 
 
 <main
-  class="relative flex flex-col items-center justify-center min-h-screen py-10"
+  class="flex flex-col items-center justify-center min-h-screen py-10"
 > 
 
   
@@ -53,79 +54,134 @@
     I'm Shihab Din
   </h1> -->
 
-  <h1
-  class="mt-14 md:mt-20 pt-10 pb-10 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-extrabold tracking-tight text-transparent md:text-7xl"
-  >
-  {$t('homepage.name')}
-  </h1>
 
+  <div class="grid grid-cols-1 gap-6 lg:gap-10 md:grid-cols-2 lg:grid-cols-4 lg:w-full lg:max-w-7xl mx-auto my-20 lg:my-32">
 
+    <div class="col-span-1 m-auto lg:col-span-2">
+      <h1
+      class="py-5 bg-gradient-to-br dark:from-white from-black via-[#707070] to-[#ffffff] bg-clip-text text-center text-4xl font-extrabold tracking-tight text-transparent lg:text-6xl"
+      >
+        {$t('homepage.name')}
+      </h1>
+    
+      <div class="flex items-center flex-col grow">
 
-  <div class="flex items-center flex-col grow">
+        <div class="mb-2">
+          <img
+            src={logo}
+            alt="d3j1x logo"
+            class="rounded-full text-white dark:text-white w-60 sm:w-64 md:w-80  transform hover:scale-110  transition ease-in-out duration-300"
+            
+          />
+        </div>
 
-    <div class="mb-2">
-      <img
-          src={logo}
-          alt="d3j1x logo"
-          class="rounded-full text-white dark:text-white w-60 sm:w-64 md:w-80  transform hover:scale-110  transition ease-in-out duration-300"
-          
-        />
+        <a
+        href="https://github.com/d3j1x"
+        class="mt-5 px-4 py-1 sm:text-lg font-bold text-gray-600 transition-all rounded-full shadow-sm bg-white/30 dark:bg-white/80 ring-1 ring-gray-900/5 dark:text-black hover:shadow-lg active:shadow-sm"
+        >
+          @d3j1x
+        </a>
+      </div>
+
     </div>
 
-    <a
-    href="https://github.com/d3j1x"
-    class="mt-5 px-4 py-1 sm:text-lg font-bold text-gray-600 transition-all rounded-full shadow-sm bg-white/30 dark:bg-white/80 ring-1 ring-gray-900/5 dark:text-black hover:shadow-lg active:shadow-sm"
-  >
-    @d3j1x
-  </a>
+
+
     
 
-    <div
-      class="mt-6 flex flex-col items-center w-full max-w-xl p-12 mx-auto rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg"
-    >
-      <div class="mb-6 text-lg text-center font-bold sm:text-xl">
+
+    <div class="col-span-1 lg:col-span-2 m-auto flex flex-col items-center p-12 mx-auto rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg">
+          
+      <div class="mb-6 text-lg lg:text-3xl text-center font-bold sm:text-xl">
         {$t('homepage.job')}
       </div>
+      
       <button
       class=" sm:text-lg text-lime-500 mb-6 font-bold opacity-100 hover:underline"
       >
         {$t('homepage.jobDef')}
       </button>
+      
       <div class="text-5xl font-bold">
-      {data?.pageVisits} <span class="text-sm">{$t('homepage.views')}</span>
+        {data?.pageVisits} <span class="text-sm">{$t('homepage.views')}</span>
       </div>
+    
     </div>
+
+    <div class="mx-auto my-20 lg:my-32 col-span-1 md:col-span-2 lg:col-span-4">
+      <h1 style="font-family: fantasy;" class="text-center text-4xl md:text-6xl lg:text-7xl text-gray-900 dark:text-white">
+        BEST PROJECTS
+      </h1>
+    </div>
+
+
+    <div class="col-span-1 md:col-span-2 m-auto w-80">
+
+      <Card padding="none">
+
+      <a href="https://smx.tn" target="_blank" rel="noreferrer">
+        <img class="p-8 rounded-t-lg h-60" src={smxsl} alt="product 1" />
+      </a>
+      <div class="px-5 pb-5">
+        <a href="/">
+          <h5 class='text-2xl font-semibold tracking-tight text-gray-900 dark:text-white'>
+            SMX © SMRT MRKT X</h5>
+        </a>
+        <Rating rating="4" size="18" class="mt-2.5 mb-5">
+          <Badge slot="text" class="ml-3">4</Badge>
+        </Rating>
+        <div class="flex justify-between items-center">
+          <span class="text-2xl font-semibold text-gray-900 dark:text-white">Opensource</span>
+          <Button href="https://smx.tn" target="_blank" rel="noreferrer">Go now</Button>
+        </div>
+      </div>
+      </Card>
+    </div>
+
+
+    <div class="col-span-1 md:col-span-2 m-auto w-80">
+
+      <Card padding="none">
+
+      <a href="https://bitcoin-street.vercel.app" target="_blank" rel="noreferrer">
+        <img class="p-8 rounded-t-lg h-60 m-auto" src={btcstreetico} alt="product 1" />
+      </a>
+      <div class="px-5 pb-5">
+        <a href="/">
+          <h5 class='text-2xl font-semibold tracking-tight text-gray-900 dark:text-white'>
+            Bitcoin Street
+          </h5>
+        </a>
+        <Rating rating="4" size="18" class="mt-2.5 mb-5">
+          <Badge slot="text" class="ml-3">4</Badge>
+        </Rating>
+        <div class="flex justify-between items-center">
+          <span class="text-2xl font-semibold text-gray-900 dark:text-white">Opensource</span>
+          <Button href="https://bitcoin-street.vercel.app" target="_blank" rel="noreferrer">Go now</Button>
+        </div>
+      </div>
+      </Card>
+    </div>
+
+
+  </div>
+  
+
+
+
+  
+
+    
+    
+
+    
 
     <div class="text-5xl font-bold">
       
     </div>
-  </div>
+  
 
-  <div class="my-10">
-      <div class="my-5">
-        <h1 class="text-center text-7xl font-semibold text-gray-900 dark:text-white">TO<a href="/projects" class="text-lime-500 underline"><span class="px-2 text-7xl font-extrabold">P</span><span class="text-4xl font-semibold">r o j e c t s</span></a></h1>
-      </div>
-    <Card padding="none">
 
-    <a href="https://bitcoin-street.vercel.app" target="_blank" rel="noreferrer">
-      <img class="p-8 rounded-t-lg" src={btcstreetico} alt="product 1" />
-    </a>
-    <div class="px-5 pb-5">
-      <a href="/">
-        <h5 class='text-xl font-semibold tracking-tight text-gray-900 dark:text-white'>
-          BTC LIVE PRICE $ | Crypto - Bitcoin News | Crypto Converter | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing | Convert Btc Satoshi To USD"
-        </h5>
-      </a>
-      <Rating rating="4" size="18" class="mt-2.5 mb-5">
-        <Badge slot="text" class="ml-3">4</Badge>
-      </Rating>
-      <div class="flex justify-between items-center">
-        <span class="text-3xl font-bold text-gray-900 dark:text-white">OpenSource</span>
-        <Button href="https://bitcoin-street.vercel.app" target="_blank" rel="noreferrer">Go now</Button>
-      </div>
-    </div>
-  </Card>
-  </div>
 
   
 

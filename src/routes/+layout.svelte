@@ -55,22 +55,22 @@
 	<div class="hidden md:block">
 
 		<Navbar let:hidden let:toggle class="fixed z-50 md:h-16">
-			<NavBrand href="/">
+			<NavBrand href="/" class="md:pb-4">
 			  <img
 				src={logo}
 				class="mr-3 h-11 sm:h-11 md:h-11 rounded-full"
 				alt="Logo"
 			  />
-			  <span class="self-center whitespace-nowrap text-xl font-bold sm:font-bold dark:text-white">
+			  <span class="self-center whitespace-nowrap text-xl md:text-2xl lg:text-3xl font-bold sm:font-bold dark:text-white">
 				D a j i x
 			  </span>
 			</NavBrand>
 			<NavHamburger on:click={toggle} />
-			<NavUl {hidden} class="font-bold" >
-			  <NavLi href="/" active={true}>{$t("homepage.home")}</NavLi>
-			  <NavLi href="/projects">{$t('homepage.projects')}</NavLi>
-			  <NavLi href="/services">{$t('homepage.services')}</NavLi>
-			  <NavLi href="/about">{$t('homepage.about')}</NavLi>
+			<NavUl {hidden} class="font-semibold" >
+			  <NavLi href="/" active={true} class="md:text-lg">{$t("homepage.home")}</NavLi>
+			  <NavLi href="/projects" class="md:text-lg">{$t('homepage.projects')}</NavLi>
+			  <NavLi href="/services" class="md:text-lg">{$t('homepage.services')}</NavLi>
+			  <NavLi href="/about" class="md:text-lg">{$t('homepage.about')}</NavLi>
 			  <CloseButton class="md:hidden" on:click={toggle} />
 			</NavUl>
 		</Navbar>

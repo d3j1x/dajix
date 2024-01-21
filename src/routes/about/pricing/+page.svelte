@@ -20,7 +20,7 @@
   <a  href="/about/contact"><Badge rounded color="purple" class="px-5 text-lg font-bold">Contact</Badge></a>
 </div>
 
-<div class="text-center text-3xl justify-around py-10 mx-2 my-32 font-semibold font-serif bg-lime-600 rounded-2xl">
+<div class="text-center text-3xl justify-center py-10 mx-auto my-32 font-semibold font-serif bg-lime-600 rounded-2xl max-w-3xl">
 
   <div>PAYEER PAYMENT</div>
   <br><br>

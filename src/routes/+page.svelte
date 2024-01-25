@@ -55,7 +55,7 @@
   </h1> -->
 
 
-  <div class="grid grid-cols-1 gap-6 lg:gap-10 md:grid-cols-2 lg:grid-cols-4 lg:w-full lg:max-w-7xl mx-auto my-20 lg:my-32">
+  <div class="grid grid-cols-1 gap-20 md:gap-10 md:grid-cols-2 lg:grid-cols-4 lg:w-full lg:max-w-7xl mx-auto my-20 lg:my-32">
 
     <div class="col-span-1 m-auto lg:col-span-2">
       <h1

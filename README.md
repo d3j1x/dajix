@@ -1,25 +1,10 @@
-# Dajix Version 1.0.5 Release v1.0.4
+# Dajix 
+### Personal Portfolio
 
 
 
-## Developing
 
 
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or use Vercel Cli
-vercel dev
-```
-
-## Version  1.0.2
-
-
-
-## Version  1.0.0
 
 
 <!-- # create-svelte
